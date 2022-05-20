@@ -13,7 +13,7 @@ public class ArrayLists {
 
         food.add("Pizza");
         food.add("Hamburger");
-        food.add("BurgerHam");
+        food.add("BurgerHamHam");
 
         food.set(0, "Chinese");
         food.remove(2);
