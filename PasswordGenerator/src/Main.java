@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
+        //testcommit
         StringBuilder password = new StringBuilder();
         Random selectArray = new Random();
         Random selectValue = new Random();
