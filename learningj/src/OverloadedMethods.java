@@ -1,7 +1,7 @@
 public class OverloadedMethods {
 
     public static void main(String[] args) {
-        // overloaded methods = methods with the same name but different parameters
+        // overloaded methods = methods with the same name but different parameters'
         //						method name + parameters = method signature
         System.out.println(add(5, 29));
         System.out.println(add(5, 29, 213));
