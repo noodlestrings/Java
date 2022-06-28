@@ -30,7 +30,7 @@ public class Main {
 
 
 
-        for(int i=0;i<(pswdLen);i++){
+        for(int i=0;i< pswdLen;i++){
             int n1 = selectArray.nextInt(3);
             if (n1 == 0){ // letters
                 int n2 = selectValue.nextInt(alphabetLen);
