@@ -1,4 +1,5 @@
 this is a test
 of some java code i copied
-to read lines from a text file
+i hope it works
+This is a test from FileWriter
 This is a test from FileWriter
