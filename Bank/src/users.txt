@@ -1,5 +1,0 @@
-this is a test
-of some java code i copied
-i hope it works
-This is a test from FileWriter
-This is a test from FileWriter
