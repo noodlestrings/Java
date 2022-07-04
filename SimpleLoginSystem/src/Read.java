@@ -1,23 +1,28 @@
 import java.io.File;
 import java.util.Scanner;
-import java.util.ArrayList;
 
 public class Read {
-    static String read(String userName) throws Exception { // return the password if usr exists
+    static String[] read(String userName) throws Exception { // return the password if usr exists
         File file = new File("C:\\IntellijProjects\\SimpleLoginSystem\\src\\users.txt");
         Scanner sc = new Scanner(file);
         String password = null;
+        boolean passwordFound = false;
 
-        while(sc.hasNextLine()){
-            String[] splitted = (sc.nextLine()).split("\\s+"); //add words from users to array separated by
+        String[] splitted = new String[0];
+        while (sc.hasNextLine()) {
+            splitted = (sc.nextLine()).split("\\s+");
             // whitespace regex "\\s+"
-            if (splitted[0].equals(userName)){
-                password = splitted[1];
+            if (splitted[0].equals(userName)) {
+                //String[] usrPswd = splitted;
+                passwordFound= true;
                 break;
             }
 
         }
+        String[] nullEvent = {userName, null};
         sc.close();
-        return password;
+        if(passwordFound) {
+            return splitted;
+        }else return nullEvent;
     }
 }
