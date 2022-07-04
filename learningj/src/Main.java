@@ -1,7 +1,8 @@
 public class Main {
 
     public static void main(String[] args) {
-        // type sout + tab; autocompletes system.out.print
+        // public method, static (no instantiation required), void (no return), main (name of method)
+        // passing in a string array called args as argument
 
         boolean bool = true;
         byte a = -128; // to 127
