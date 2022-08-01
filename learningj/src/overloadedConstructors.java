@@ -4,6 +4,7 @@ public class overloadedConstructors {
         //                           with different parameters
         //                           name + parameters = signature
         Pizza pizza1 = new Pizza("White", 13, false, "mozzarella");
+        Pizza pizza2 = new Pizza(13, true, "mozzarella");
 
         System.out.println("Here are the ingredients of your pizza");
         System.out.println(pizza1.doughColor);
